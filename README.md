@@ -1,5 +1,6 @@
 # BatchColor
 Colored text in batch files!
+ONLY WORKS ON WINDOWS 10
 
 
 # Color File Syntax:
