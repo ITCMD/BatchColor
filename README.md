@@ -4,7 +4,7 @@ ONLY WORKS ON WINDOWS 10
 
 
 # Color File Syntax:
-call ColorText.bat 0a "Hello World" /n /b
+call ColorText.bat 0a "Hello World" /n /u
 
 0a             = The HEX color code (just like you would use with the color command) for more info run color -help
 "Hello World"  = The text you want to display
@@ -12,7 +12,7 @@ call ColorText.bat 0a "Hello World" /n /b
 /u             = Underline the text
 
 # Color Function Syntax:
-call :color 0a "Hello World" /n /b
+call :color 0a "Hello World" /n /u
 
 0a             = The HEX color code (just like you would use with the color command) for more info run color -help
 "Hello World"  = The text you want to display
