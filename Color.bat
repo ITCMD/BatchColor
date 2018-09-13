@@ -7,7 +7,7 @@ set Sameline=False
 set Underline=False
 if /i "%~3"=="/n" set Sameline=True
 if /i "%~3"=="/u" set Underline=True
-if /i "%~4"=="/n" set Newline=True
+if /i "%~4"=="/n" set Sameline=True
 if /i "%~4"=="/u" set Underline=True
 
 
