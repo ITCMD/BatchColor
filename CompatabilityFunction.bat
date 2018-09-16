@@ -1,5 +1,4 @@
 @echo off
-Title Unlimited Options!
 set type=none
 FOR /F "tokens=4-7 delims=[]. " %%i in ('ver') DO (
   SET /A _MajorMinor = %%i * 100 + %%j
